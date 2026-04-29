@@ -1,0 +1,9 @@
+{
+  "prediction": 0,
+  "true_label": 0,
+  "probabilities": [
+    1.0,
+    6.679086450578353e-11
+  ],
+  "sample_idx": 0
+}

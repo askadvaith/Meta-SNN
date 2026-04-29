@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_4_Tenderloin,beef,1.302146315574646,0.84375
+seafood_nemipterus_nemathophorus,seafood,0.9030098915100098,0.875
+vinegar_brand_classification,vinegar,15.112104415893555,0.34375
+wine_quality_classification,wine,3.412538528442383,0.78125
+beef_12_Fat,beef,2.123903751373291,0.71875
+seafood_squid,seafood,3.373507022857666,0.90625
+vinegar_brand_classification,vinegar,13.599671363830566,0.34375
+wine_quality_classification,wine,1.4384057521820068,0.65625

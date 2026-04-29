@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_1_Inside-Outside,beef,0.34434276819229126,0.8125
+seafood_octopus,seafood,1.3827004432678223,0.71875
+vinegar_brand_classification,vinegar,1.285804271697998,0.625
+wine_quality_classification,wine,0.6328614354133606,0.8125
+beef_1_Inside-Outside,beef,0.33767813444137573,0.90625
+seafood_nemipterus_nemathophorus,seafood,1.10371994972229,0.71875
+vinegar_brand_classification,vinegar,1.342909336090088,0.6875
+wine_quality_classification,wine,1.239187479019165,0.71875

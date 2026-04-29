@@ -1,0 +1,10 @@
+{
+  "experiment_name": "direct_encoder_adaptive_window_20260103_145036",
+  "timestamp": "2026-01-03T15:55:56.369496",
+  "meta_training_epochs": 50,
+  "tasks_evaluated": 18,
+  "final_meta_loss": 1.0945395044982433,
+  "final_meta_accuracy": 0.72265625,
+  "mean_task_accuracy": 0.8858884308073256,
+  "std_task_accuracy": 0.08686291487972245
+}

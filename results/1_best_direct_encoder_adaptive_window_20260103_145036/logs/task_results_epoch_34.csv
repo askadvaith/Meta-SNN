@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_6_Striploin,beef,0.6583395600318909,0.875
+seafood_octopus,seafood,1.3902428150177002,0.6875
+vinegar_brand_classification,vinegar,1.3111265897750854,0.5625
+wine_quality_classification,wine,0.6737418174743652,0.78125
+beef_6_Striploin,beef,0.6509528160095215,0.875
+seafood_cuttlefish,seafood,1.9380170106887817,0.71875
+vinegar_brand_classification,vinegar,1.6861982345581055,0.59375
+wine_quality_classification,wine,1.0258673429489136,0.6875

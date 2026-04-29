@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_2_Round,beef,0.38213050365448,0.71875
+seafood_octopus,seafood,1.7070916891098022,0.65625
+vinegar_brand_classification,vinegar,1.0777806043624878,0.59375
+wine_quality_classification,wine,1.6639773845672607,0.75
+beef_4_Tenderloin,beef,0.20230397582054138,0.9375
+seafood_cuttlefish,seafood,1.6300581693649292,0.21875
+vinegar_brand_classification,vinegar,1.0613515377044678,0.78125
+wine_quality_classification,wine,2.130303144454956,0.625

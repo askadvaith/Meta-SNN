@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_2_Round,beef,0.8344389796257019,0.8125
+seafood_squid,seafood,1.20682954788208,0.6875
+vinegar_brand_classification,vinegar,0.6443044543266296,0.8125
+wine_quality_classification,wine,0.7909039855003357,0.8125
+beef_12_Fat,beef,0.8652224540710449,0.6875
+seafood_nemipterus_nemathophorus,seafood,1.0654802322387695,0.8125
+vinegar_brand_classification,vinegar,1.340470314025879,0.65625
+wine_quality_classification,wine,1.5638211965560913,0.65625

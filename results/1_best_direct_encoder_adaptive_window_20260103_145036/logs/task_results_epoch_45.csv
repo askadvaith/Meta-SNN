@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_3_Top_Sirloin,beef,0.4395970106124878,0.78125
+seafood_squid,seafood,0.7729856371879578,0.75
+vinegar_brand_classification,vinegar,2.514730930328369,0.5
+wine_quality_classification,wine,0.5757884979248047,0.78125
+beef_8_Skirt_meat,beef,0.5892332792282104,0.8125
+seafood_squid,seafood,0.9748172163963318,0.6875
+vinegar_brand_classification,vinegar,0.5732294917106628,0.78125
+wine_quality_classification,wine,1.5599809885025024,0.65625

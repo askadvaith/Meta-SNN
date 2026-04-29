@@ -1,0 +1,25 @@
+{
+    "data_root": "data",
+    "sequence_length": 500,
+    "downsample_factor": 2,
+    "input_size": 10,
+    "hidden_sizes": [
+        128,
+        64
+    ],
+    "beta": 0.9,
+    "dropout": 0.1,
+    "meta_lr": 0.1,
+    "inner_lr": 0.001,
+    "inner_steps": 8,
+    "epochs": 50,
+    "tasks_per_epoch": 8,
+    "samples_per_task": 32,
+    "interleave": true,
+    "eval_interval": 5,
+    "adaptation_steps": 15,
+    "explain_samples": 3,
+    "results_dir": "results",
+    "experiment_name": "optimized_direct_encoder",
+    "seed": 42
+}

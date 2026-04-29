@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_12_Fat,beef,0.3926982581615448,0.84375
+seafood_cuttlefish,seafood,0.9627922773361206,0.75
+vinegar_brand_classification,vinegar,3.066089153289795,0.46875
+wine_quality_classification,wine,1.1710970401763916,0.6875
+beef_5_Flap_meat,beef,0.4317415654659271,0.9375
+seafood_squid,seafood,0.3400190770626068,0.84375
+vinegar_brand_classification,vinegar,1.1865135431289673,0.71875
+wine_quality_classification,wine,0.8737326264381409,0.75

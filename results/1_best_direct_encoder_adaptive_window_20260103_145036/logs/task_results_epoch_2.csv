@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_10_Clod_Chuck,beef,3.3864705562591553,0.8125
+seafood_nemipterus_nemathophorus,seafood,1.0925073623657227,0.75
+vinegar_brand_classification,vinegar,15.647014617919922,0.25
+wine_quality_classification,wine,3.3030436038970947,0.65625
+beef_5_Flap_meat,beef,1.468874216079712,0.8125
+seafood_octopus,seafood,3.243781089782715,0.65625
+vinegar_brand_classification,vinegar,22.18073272705078,0.375
+wine_quality_classification,wine,6.397524833679199,0.75

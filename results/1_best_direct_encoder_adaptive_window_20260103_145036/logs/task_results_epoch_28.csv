@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_7_Rib_eye,beef,0.7923797369003296,0.5625
+seafood_octopus,seafood,1.0814628601074219,0.65625
+vinegar_brand_classification,vinegar,1.6978825330734253,0.6875
+wine_quality_classification,wine,1.325653076171875,0.6875
+beef_11_Shin,beef,0.7019493579864502,0.8125
+seafood_squid,seafood,2.1742067337036133,0.65625
+vinegar_brand_classification,vinegar,1.3755943775177002,0.71875
+wine_quality_classification,wine,0.7804888486862183,0.75

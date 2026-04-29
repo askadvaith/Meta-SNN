@@ -1,0 +1,56 @@
+{
+  "data": {
+    "data_root": "data",
+    "sequence_length": 500,
+    "downsample_factor": 2
+  },
+  "model": {
+    "input_size": 10,
+    "hidden_sizes": [
+      128,
+      64
+    ],
+    "beta": 0.9
+  },
+  "meta_learning": {
+    "meta_lr": 0.1,
+    "inner_lr": 0.001,
+    "inner_steps": 8,
+    "epochs": 50,
+    "tasks_per_epoch": 8,
+    "samples_per_task": 32,
+    "interleave": true
+  },
+  "evaluation": {
+    "eval_interval": 5,
+    "adaptation_steps": 15,
+    "explain_samples": 3
+  },
+  "adaptive_window": {
+    "enabled": false,
+    "window_candidates": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      750,
+      1000,
+      1500
+    ],
+    "alpha": 1.0,
+    "beta": 0.1,
+    "gamma": 0.3,
+    "load_cached": null
+  },
+  "device": "cuda",
+  "gpu_info": {
+    "cuda_available": true,
+    "device_used": "cuda",
+    "cuda_version": "12.6",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_total": "8.59 GB",
+    "gpu_memory_allocated": "0.00 MB"
+  },
+  "seed": 42
+}

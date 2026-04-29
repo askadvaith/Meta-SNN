@@ -1,0 +1,9 @@
+task,domain,loss,accuracy
+beef_3_Top_Sirloin,beef,0.7728821039199829,0.71875
+seafood_nemipterus_nemathophorus,seafood,0.6514899730682373,0.78125
+vinegar_brand_classification,vinegar,1.702009916305542,0.5625
+wine_quality_classification,wine,1.4110554456710815,0.71875
+beef_6_Striploin,beef,0.6382704377174377,0.75
+seafood_octopus,seafood,2.1544079780578613,0.6875
+vinegar_brand_classification,vinegar,0.6576185822486877,0.75
+wine_quality_classification,wine,0.9437528848648071,0.75

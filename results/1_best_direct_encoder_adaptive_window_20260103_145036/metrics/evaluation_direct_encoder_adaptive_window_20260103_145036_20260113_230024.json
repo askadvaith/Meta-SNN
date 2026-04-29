@@ -1,0 +1,723 @@
+{
+  "experiment": "direct_encoder_adaptive_window_20260103_145036",
+  "datasets": [
+    "beef"
+  ],
+  "config": {
+    "adaptation_steps": 10,
+    "train_ratio": 0.8,
+    "device": "cuda"
+  },
+  "task_results": [
+    {
+      "task_name": "beef_1_Inside-Outside",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.6646504402160645,
+        "train_accuracy": 0.7758620381355286,
+        "train_precision": 0.7065226041849473,
+        "train_recall": 0.7758620689655172,
+        "train_f1": 0.7388396426786606,
+        "test_loss": 0.8830903172492981,
+        "test_accuracy": 0.7142857142857143,
+        "test_precision": 0.7999999999999999,
+        "test_recall": 0.7142857142857143,
+        "test_f1": 0.7301587301587302,
+        "test_precision_macro": 0.55,
+        "test_recall_macro": 0.7,
+        "test_f1_macro": 0.5555555555555556,
+        "test_confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            16
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_2_Round",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.8695761561393738,
+        "train_accuracy": 0.75,
+        "train_precision": 0.6992106054530873,
+        "train_recall": 0.75,
+        "train_f1": 0.7094325259719759,
+        "test_loss": 0.7829171419143677,
+        "test_accuracy": 0.7857142857142857,
+        "test_precision": 0.6987577639751553,
+        "test_recall": 0.7857142857142857,
+        "test_f1": 0.7214285714285714,
+        "test_precision_macro": 0.6847826086956521,
+        "test_recall_macro": 0.65,
+        "test_f1_macro": 0.65,
+        "test_confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            17
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_3_Top_Sirloin",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.1418991982936859,
+        "train_accuracy": 0.9396551847457886,
+        "train_precision": 0.9382231503295971,
+        "train_recall": 0.9396551724137931,
+        "train_f1": 0.9341628124225877,
+        "test_loss": 0.12117727100849152,
+        "test_accuracy": 0.9642857142857143,
+        "test_precision": 0.9659863945578231,
+        "test_recall": 0.9642857142857143,
+        "test_f1": 0.9587688734030196,
+        "test_precision_macro": 0.9880952380952381,
+        "test_recall_macro": 0.875,
+        "test_f1_macro": 0.9105691056910569,
+        "test_confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            20
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_4_Tenderloin",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.6048304438591003,
+        "train_accuracy": 0.7844827771186829,
+        "train_precision": 0.7629627281947261,
+        "train_recall": 0.7844827586206896,
+        "train_f1": 0.7406612132271362,
+        "test_loss": 0.37421271204948425,
+        "test_accuracy": 0.8928571428571429,
+        "test_precision": 0.8857142857142858,
+        "test_recall": 0.8928571428571429,
+        "test_f1": 0.8779761904761905,
+        "test_precision_macro": 0.6386363636363637,
+        "test_recall_macro": 0.6136363636363636,
+        "test_f1_macro": 0.5928030303030303,
+        "test_confusion_matrix": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            21
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_5_Flap_meat",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.16244152188301086,
+        "train_accuracy": 0.931034505367279,
+        "train_precision": 0.9395114942528736,
+        "train_recall": 0.9310344827586207,
+        "train_f1": 0.9316864676905244,
+        "test_loss": 0.18059591948986053,
+        "test_accuracy": 0.8928571428571429,
+        "test_precision": 0.8829365079365079,
+        "test_recall": 0.8928571428571429,
+        "test_f1": 0.8857142857142856,
+        "test_precision_macro": 0.8527777777777779,
+        "test_recall_macro": 0.825,
+        "test_f1_macro": 0.8357142857142857,
+        "test_confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            17
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_6_Striploin",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.3658553957939148,
+        "train_accuracy": 0.8103448152542114,
+        "train_precision": 0.8013141485315208,
+        "train_recall": 0.8103448275862069,
+        "train_f1": 0.7991279725316971,
+        "test_loss": 0.3037702441215515,
+        "test_accuracy": 0.9285714285714286,
+        "test_precision": 0.9360902255639098,
+        "test_recall": 0.9285714285714286,
+        "test_f1": 0.9126984126984127,
+        "test_precision_macro": 0.9736842105263158,
+        "test_recall_macro": 0.8333333333333334,
+        "test_f1_macro": 0.8611111111111112,
+        "test_confusion_matrix": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            17
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_7_Rib_eye",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.47748684883117676,
+        "train_accuracy": 0.8706896305084229,
+        "train_precision": 0.88029062391881,
+        "train_recall": 0.8706896551724138,
+        "train_f1": 0.842089378143909,
+        "test_loss": 0.41249918937683105,
+        "test_accuracy": 0.8571428571428571,
+        "test_precision": 0.8941176470588236,
+        "test_recall": 0.8571428571428571,
+        "test_f1": 0.8478954081632654,
+        "test_precision_macro": 0.8705882352941177,
+        "test_recall_macro": 0.8125,
+        "test_f1_macro": 0.8028273809523809,
+        "test_confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            15
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_8_Skirt_meat",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.4981091022491455,
+        "train_accuracy": 0.818965494632721,
+        "train_precision": 0.7234281955407839,
+        "train_recall": 0.8189655172413793,
+        "train_f1": 0.7646507515473032,
+        "test_loss": 0.4058595299720764,
+        "test_accuracy": 0.8928571428571429,
+        "test_precision": 0.8279220779220778,
+        "test_recall": 0.8928571428571429,
+        "test_f1": 0.858843537414966,
+        "test_precision_macro": 0.6439393939393939,
+        "test_recall_macro": 0.6666666666666666,
+        "test_f1_macro": 0.6547619047619047,
+        "test_confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            20
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_9_Brisket",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.335873007774353,
+        "train_accuracy": 0.8534482717514038,
+        "train_precision": 0.7807647602300837,
+        "train_recall": 0.853448275862069,
+        "train_f1": 0.8092489834265499,
+        "test_loss": 0.5972753167152405,
+        "test_accuracy": 0.6785714285714286,
+        "test_precision": 0.6257763975155279,
+        "test_recall": 0.6785714285714286,
+        "test_f1": 0.5998069498069498,
+        "test_precision_macro": 0.6521739130434783,
+        "test_recall_macro": 0.6071428571428572,
+        "test_f1_macro": 0.5891891891891892,
+        "test_confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            14
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_10_Clod_Chuck",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.0800367221236229,
+        "train_accuracy": 0.9655172228813171,
+        "train_precision": 0.9684729064039409,
+        "train_recall": 0.9655172413793104,
+        "train_f1": 0.9661670939801612,
+        "test_loss": 0.14711761474609375,
+        "test_accuracy": 0.9285714285714286,
+        "test_precision": 0.9571428571428572,
+        "test_recall": 0.9285714285714286,
+        "test_f1": 0.9353005865102639,
+        "test_precision_macro": 0.9,
+        "test_recall_macro": 0.9427083333333334,
+        "test_f1_macro": 0.906708211143695,
+        "test_confusion_matrix": [
+          [
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            15
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_11_Shin",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.6461694836616516,
+        "train_accuracy": 0.75,
+        "train_precision": 0.6842672413793104,
+        "train_recall": 0.75,
+        "train_f1": 0.6805815072759187,
+        "test_loss": 0.6125934720039368,
+        "test_accuracy": 0.7857142857142857,
+        "test_precision": 0.7414965986394558,
+        "test_recall": 0.7857142857142857,
+        "test_f1": 0.7503759398496241,
+        "test_precision_macro": 0.5357142857142857,
+        "test_recall_macro": 0.5,
+        "test_f1_macro": 0.5070175438596491,
+        "test_confusion_matrix": [
+          [
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            17
+          ]
+        ]
+      }
+    },
+    {
+      "task_name": "beef_12_Fat",
+      "domain": "beef",
+      "num_samples": 144,
+      "num_classes": 4,
+      "class_names": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Spoiled"
+      ],
+      "metrics": {
+        "train_loss": 0.27661511301994324,
+        "train_accuracy": 0.8620689511299133,
+        "train_precision": 0.867666815942678,
+        "train_recall": 0.8620689655172413,
+        "train_f1": 0.8556787082649152,
+        "test_loss": 0.1235591247677803,
+        "test_accuracy": 0.9285714285714286,
+        "test_precision": 0.8928571428571429,
+        "test_recall": 0.9285714285714286,
+        "test_f1": 0.9047619047619048,
+        "test_precision_macro": 0.625,
+        "test_recall_macro": 0.75,
+        "test_f1_macro": 0.6666666666666666,
+        "test_confusion_matrix": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            20
+          ]
+        ]
+      }
+    }
+  ],
+  "domain_aggregated": {
+    "beef": {
+      "accuracy_mean": 0.8541666666666669,
+      "accuracy_std": 0.08803690153422049,
+      "accuracy_min": 0.6785714285714286,
+      "accuracy_max": 0.9642857142857143,
+      "loss_mean": 0.41205565445125103,
+      "loss_std": 0.24811561459078904,
+      "loss_min": 0.12117727100849152,
+      "loss_max": 0.8830903172492981,
+      "precision_weighted_mean": 0.842399824906964,
+      "precision_weighted_std": 0.1023495222320628,
+      "precision_weighted_min": 0.6257763975155279,
+      "precision_weighted_max": 0.9659863945578231,
+      "precision_macro_mean": 0.7429493355602187,
+      "precision_macro_std": 0.15619153587208554,
+      "precision_macro_min": 0.5357142857142857,
+      "precision_macro_max": 0.9880952380952381,
+      "recall_weighted_mean": 0.8541666666666669,
+      "recall_weighted_std": 0.08803690153422049,
+      "recall_weighted_min": 0.6785714285714286,
+      "recall_weighted_max": 0.9642857142857143,
+      "recall_macro_mean": 0.7313322961760461,
+      "recall_macro_std": 0.12450001580318303,
+      "recall_macro_min": 0.5,
+      "recall_macro_max": 0.9427083333333334,
+      "f1_weighted_mean": 0.8319774491988486,
+      "f1_weighted_std": 0.10315600637954198,
+      "f1_weighted_min": 0.5998069498069498,
+      "f1_weighted_max": 0.9587688734030196,
+      "f1_macro_mean": 0.7110769987457105,
+      "f1_macro_std": 0.13786409677063646,
+      "f1_macro_min": 0.5070175438596491,
+      "f1_macro_max": 0.9105691056910569,
+      "num_tasks": 12,
+      "total_samples": 1728
+    }
+  },
+  "overall_aggregated": {
+    "accuracy_mean": 0.8541666666666669,
+    "accuracy_std": 0.08803690153422049,
+    "accuracy_min": 0.6785714285714286,
+    "accuracy_max": 0.9642857142857143,
+    "loss_mean": 0.41205565445125103,
+    "loss_std": 0.24811561459078904,
+    "loss_min": 0.12117727100849152,
+    "loss_max": 0.8830903172492981,
+    "precision_weighted_mean": 0.842399824906964,
+    "precision_weighted_std": 0.1023495222320628,
+    "precision_weighted_min": 0.6257763975155279,
+    "precision_weighted_max": 0.9659863945578231,
+    "precision_macro_mean": 0.7429493355602187,
+    "precision_macro_std": 0.15619153587208554,
+    "precision_macro_min": 0.5357142857142857,
+    "precision_macro_max": 0.9880952380952381,
+    "recall_weighted_mean": 0.8541666666666669,
+    "recall_weighted_std": 0.08803690153422049,
+    "recall_weighted_min": 0.6785714285714286,
+    "recall_weighted_max": 0.9642857142857143,
+    "recall_macro_mean": 0.7313322961760461,
+    "recall_macro_std": 0.12450001580318303,
+    "recall_macro_min": 0.5,
+    "recall_macro_max": 0.9427083333333334,
+    "f1_weighted_mean": 0.8319774491988486,
+    "f1_weighted_std": 0.10315600637954198,
+    "f1_weighted_min": 0.5998069498069498,
+    "f1_weighted_max": 0.9587688734030196,
+    "f1_macro_mean": 0.7110769987457105,
+    "f1_macro_std": 0.13786409677063646,
+    "f1_macro_min": 0.5070175438596491,
+    "f1_macro_max": 0.9105691056910569,
+    "num_tasks": 12,
+    "total_samples": 1728
+  }
+}

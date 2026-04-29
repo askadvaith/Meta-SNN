@@ -1,0 +1,40 @@
+{
+    "data_root": "data",
+    "sequence_length": 500,
+    "downsample_factor": 2,
+    "input_size": 10,
+    "hidden_sizes": [
+        128,
+        64
+    ],
+    "beta": 0.9,
+    "dropout": 0.1,
+    "meta_lr": 0.1,
+    "inner_lr": 0.001,
+    "inner_steps": 8,
+    "epochs": 50,
+    "tasks_per_epoch": 8,
+    "samples_per_task": 32,
+    "interleave": true,
+    "eval_interval": 5,
+    "adaptation_steps": 15,
+    "explain_samples": 3,
+    "results_dir": "results",
+    "experiment_name": "direct_encoder_adaptive_window",
+    "seed": 42,
+    
+    "adaptive_window": {
+        "enabled": true,
+        "window_candidates": [100, 200, 300, 400, 500, 750, 1000, 1500],
+        "alpha": 1.0,
+        "beta": 0.1,
+        "gamma": 0.0,
+        "inner_steps": 5,
+        "samples_per_task": 32,
+        "transfer_tasks": 3,
+        "use_spectral_analysis": false,
+        "min_info_retention": 0.7,
+        "cache_results": true,
+        "load_cached": null
+    }
+}
