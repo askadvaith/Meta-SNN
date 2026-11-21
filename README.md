@@ -3,7 +3,7 @@
 This repository contains the implementation of **Meta-SNN**, an explainable spiking meta-learning framework for multi-task olfactory data classification. The framework combines Spiking Neural Networks (SNNs) with the Reptile meta-learning algorithm to achieve data-efficient, resource-efficient learning across heterogeneous electronic nose (e-nose) datasets. This work has been published in the proceedings of the 16th International Workshop on Computer Science and Engineering, 2026 (WCSE'2026).
 
 #### Paper Link:
-<placeholder>
+[https://doi.org/10.18178/wcse.2026.06.005](https://doi.org/10.18178/wcse.2026.06.005)
 
 ## Overview
 
